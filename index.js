@@ -3,42 +3,6 @@ const express = require('express')
 const app = express()
 
 let books = [
-    {
-      "id": 1,
-      "title": "To Kill a Mockingbird",
-      "details": [
-        {
-          "id": 1,
-          "author": "Harper Lee",
-          "genre": "Fiction",
-          "publicationYear": 1960
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "1984",
-      "details": [
-        {
-          "id": 2,
-          "author": "George Orwell",
-          "genre": "Dystopian",
-          "publicationYear": 1949
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "The Great Gatsby",
-      "details": [
-        {
-          "id": 3,
-          "author": "F. Scott Fitzgerald",
-          "genre": "Fiction",
-          "publicationYear": 1925
-        }
-      ]
-    }
   ]
   
 app.use(express.json())
